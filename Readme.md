@@ -1,4 +1,6 @@
 # Basic Flask
+You can run the Flask app at https://mybinder.org/v2/gh/bmoh1/Basic-Flask/HEAD?labpath=main.py
+
 This is a simple project which aims to uses Flask to build an internal web framework. The main Idea is to build an internal HTML webpage which accepts tasks from Clients. Flask API is built to receive these orders and send them to backend database Flask-SQLAlchemy (Webpage -> Flask -> SQLAlchemy DB)
 
 Inspiration was taken from https://github.com/jakerieger/FlaskIntroduction but I have made some enhancements such as code enhancements and HTML CSS edits. For example, ```db.create_all()``` raises and error ```RuntimeError: Working outside of application context``` if there is no app context because all access to ```db.session``` needs an active Flask application context.
