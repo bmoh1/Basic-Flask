@@ -1,5 +1,5 @@
 # Basic Flask
-You can run the Flask app at https://mybinder.org/v2/gh/bmoh1/Basic-Flask/HEAD?labpath=main.py
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmoh1/Basic-Flask/HEAD?labpath=main.py)
 
 This is a simple project which aims to uses Flask to build an internal web framework. The main Idea is to build an internal HTML webpage which accepts tasks from Clients. Flask API is built to receive these orders and send them to backend database Flask-SQLAlchemy (Webpage -> Flask -> SQLAlchemy DB)
 
